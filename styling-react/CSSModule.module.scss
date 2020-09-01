@@ -1,0 +1,20 @@
+.wrapper {
+    background: black;
+    padding: 1rem;
+    color: white;
+    font-size: 2rem;
+    &.inverted {
+        // inverted가 wrapper와 함께 사용될때만
+        color: black;
+        background: white;
+        border: 1px solid black;
+    }
+}
+
+
+:global {
+    .something {
+        font-weight: 800;
+        color: aqua;
+    }
+}
